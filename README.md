@@ -1,2 +1,3 @@
-# week1
-Slides from our first week
+# Week 1
+
+Slides from our first week.
