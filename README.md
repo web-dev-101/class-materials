@@ -1,3 +1,3 @@
-# Week 1
+# Web Development 101 Matierals 
 
-Slides from our first week.
+Slides and code examples, week by week.
