@@ -1,3 +1,3 @@
-# Web Development 101 Matierals 
+# Web Development 101 Materials 
 
 Slides and code examples, week by week.
