@@ -1,0 +1,117 @@
+* {
+    color: green;
+}
+
+
+/* Selectors */
+#first {
+    color: #3d8ce7;
+}
+
+.second {
+    color: red;
+}
+
+p {
+    color: rgb(0, 0, 0);
+}
+
+div p {
+    color: #ee318d;
+}
+
+/* Units */
+#px {
+    font-size: 48px;
+}
+
+#em {
+    font-size: 3em;
+}
+
+#pc {
+    font-size: 300%
+}
+
+/* Boxes */
+#my-box {
+    background-color: red;
+    /* background-image: url("https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0012/1091/brand.gif?itok=RA5kz-iJ"); */
+    width: 200px;
+    height: 200px;
+}
+
+#box1 {
+    font-size: 100px;
+    width: .5em;
+    height: 50px;
+    border: 1px solid black;
+    box-shadow: 10px -10px black; /* horizontal, vertical, color */
+}
+
+#box2 {
+    width: 50%;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px 50px 40% 3em;  /* top-left, top-right, bottom-right, bottom-left */
+}
+
+/* More Styling! */
+#my-styling {
+    color: black;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+#decoration {
+    text-decoration: overline;
+    /* text-decoration: line-through; */
+    /* text-decoration: underline; */
+    /* text-decoration: overline underline line-through; */
+    /* text-decoration: underline orangered wavy; */
+}
+
+#hey {
+    font-size: 8em;
+    font-family: "Lobster Two", sans-serif;
+}
+
+#text-align {
+    color: black;
+    text-align: left;
+}
+
+/* Display */
+.block {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.inline {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.inline-block {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+/* Box Model */
+.box-model {
+    padding: 10px;
+    border: 10px solid black;
+    margin: 100px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.box-model-text {
+    /* display: inline-block; */
+    padding: 5px;
+    border: 1px solid black;
+    margin: 10px;
+}
