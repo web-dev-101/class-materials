@@ -1,0 +1,22 @@
+#page-title {
+  float: left;
+}
+
+#nav {
+  float: right;
+}
+
+.clearfix:after, .row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col-left {
+  float: left;
+}
+
+.col-right {
+  float: right;
+  width: 500px;
+}

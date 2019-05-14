@@ -1,0 +1,12 @@
+* {
+  font-family: 'Helvetica Neue', Helvetica, Arial;
+}
+
+body > section {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+}
+body > section:hover {
+  background-color: #f2f2f2;
+}
