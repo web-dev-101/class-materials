@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>All About Me</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="float.css" />
+</head>
+
+<body id="main">
+    <div id="layout-types">
+        <button id="table-button">Tables</button>
+        <button id="float-button">Floats</button>
+        <button id="display-button">Display</button>
+        <button id="flex-button">Flex</button>
+    </div>
+    <div id="tables">
+        <table border="1" cellpadding="10" align="center">
+            <thead>
+                <tr>
+                    <th colspan="6">About Me</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Sections:
+                    </td>
+                    <td>
+                        <a href="#origin" title="Origin">Origin</a>
+                    </td>
+                    <td>
+                        <a href="#childhood" title="Childhood">Childhood</a>
+                    </td>
+                    <td>
+                        <a href="#movies" title="Movies">Movies</a>
+                    </td>
+                    <td>
+                        <a href="#facts" title="Facts">Facts</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>Jesse Williamson</h2>
+                    </td>
+                    <td>
+                        <img src="http://lorempixel.com/200/200" alt="It me!" title="Hi, mom!" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Origin Story
+                    </td>
+                    <td>
+                        IDK
+                    </td>
+                <tr>
+                    <td>
+                        Early Childhood
+                    </td>
+                    <td>
+                        IDK
+                    </td>
+                    <td>
+                        IDK
+                    </td>
+                    <td>
+                        IDK
+                    </td>
+                </tr>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="floats">
+        <section id="section-a">
+            <section class="clearfix">
+                <h1 id="page-title">About Me</h1>
+                <section id="nav">
+                    <a href="#origin" title="Origin">Origin</a>
+                    <a href="#childhood" title="Childhood">Childhood</a>
+                    <a href="#movies" title="Movies">Movies</a>
+                    <a href="#facts" title="Facts">Facts</a>
+                </section>
+            </section>
+            <section class="clearfix">
+                <h2>Jesse Williamson</h2>
+                <img src="http://lorempixel.com/200/200" alt="It me!" title="Hi, mom!" />
+            </section>
+        </section>
+        <section id="origin" class="row">
+            <section class="col-left">
+                <h3>Origin Story</h3>
+            </section>
+            <section class="col-right">
+                <p>
+                    Now that there is the <b>Tec-9</b>, a crappy spray gun from South Miami. <i>This gun is advertised
+                        as
+                        the most popular gun in American crime</i>.
+                    Do you believe that shit? It actually says that in the little book that comes with it: the most
+                    popular
+                    gun in American crime.
+                    Like they're actually proud of that shit.
+                </p>
+            </section>
+        </section>
+        <section id="childhood" class="row">
+            <section class="col-left">
+                <h3>Early Childhood</h3>
+            </section>
+            <section class="col-right">
+                <p>
+                    Look, <a href="https://google.com" title="Google">just because</a> I don't be givin' no man a foot
+                    massage don't make it right for
+                    Marsellus to throw Antwone into a glass motherfuckin' house, fuckin' up the way the brother talks.
+                    Motherfucker do that shit to
+                    me, he better paralyze my ass, 'cause I'll kill the motherfucker, know what I'm sayin'?
+                </p>
+                <p>
+                    Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my
+                    name
+                    printed on it? Do you see a little
+                    Asian child with a blank expression on his face sitting outside on a mechanical helicopter that
+                    shakes
+                    when you put quarters in it? No?
+                    Well, that's what you see at a toy store. And you must think you're in a toy store, because you're
+                    here
+                    shopping for an infant named Jeb.
+                </p>
+                <p>
+                    My money's in that office, right? If she start giving me some bullshit about it ain't there, and we
+                    got
+                    to go someplace else and get it,
+                    I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps,
+                    find
+                    out where my goddamn money is.
+                    She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in
+                    there, and Winston or anybody else
+                    is in there, you the first motherfucker to get shot. You understand?
+                </p>
+            </section>
+        </section>
+        <section class="row">
+            <section class="col-left">
+                <h3 id="movies">Top 5 Movies</h3>
+            </section>
+            <section class="col-right">
+                <ol>
+                    <li>The Goonies</li>
+                    <li>The Princess Bride</li>
+                    <li>The Empire Strikes Back</li>
+                    <li>Requiem For A Dream</li>
+                    <li>The Phantom Menace</li>
+                </ol>
+            </section>
+        </section>
+        <section class="row">
+            <section class="col-right">
+                <h3 id="facts">Interesting Facts</h3>
+            </section>
+            <section class="col-left">
+                <ul>
+                    <li>The Goonies</li>
+                    <li>The Princess Bride</li>
+                    <li>The Empire Strikes Back</li>
+                    <li>Requiem For A Dream</li>
+                    <li>The Phantom Menace</li>
+                </ul>
+            </section>
+        </section>
+    </div>
+    <script>
+        // NOPE
+        const els = [];
+        els.push(document.getElementById("table-button"));
+        els.push(document.getElementById("float-button"));
+        els.push(document.getElementById("display-button"));
+        els.push(document.getElementById("flex-button"));
+
+        els.map((el) => el.addEventListener("click", () => {
+            els.forEach((x) => x.style = "")
+            el.style = "display: block"
+        }))
+    </script>
+</body>
+
+</html>

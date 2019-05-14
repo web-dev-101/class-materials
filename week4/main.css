@@ -2,11 +2,37 @@
   font-family: 'Helvetica Neue', Helvetica, Arial;
 }
 
-body > section {
+body {
   width: 1000px;
   margin: 0 auto;
   padding: 10px;
 }
-body > section:hover {
-  background-color: #f2f2f2;
+
+body > div {
+  margin: 20px;
+  display: none;
+}
+
+#layout-types {
+  text-align: center;
+  display: block ;
+}
+
+#layout-types button {
+  margin: 10px;
+  font-size: 16px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #02cde0;
+  color: #f7f7f7;
+  border-radius: 3px;;
+}
+
+#layout-types button:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 2px #e2e2e2;
+}
+
+#layout-types button:active, #layout-types button:focus {
+  outline: none; 
 }
