@@ -24,13 +24,15 @@ body > div {
   padding: 10px 15px;
   border: none;
   background-color: #02cde0;
+  border: 2px solid #02cde0;
   color: #f7f7f7;
   border-radius: 3px;;
 }
 
 #layout-types button:hover {
   cursor: pointer;
-  box-shadow: 0 2px 2px #e2e2e2;
+  color: #02cde0;
+  background-color: #fff;
 }
 
 #layout-types button:active, #layout-types button:focus {
