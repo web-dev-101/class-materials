@@ -1,0 +1,24 @@
+#display-layout #page-title {
+  float: none;
+  display: inline-block;
+}
+
+#display-layout #nav {
+  float: none;
+  display: inline-block;
+  position: relative;
+  left: 625px;
+}
+
+#display-layout .section-title {
+  display: inline-block;
+  width: 350px;
+  vertical-align: top;
+}
+
+#display-layout .section-content {
+  display: inline-block;
+  position: relative;
+  width: 410px;
+  left: 200px;
+}

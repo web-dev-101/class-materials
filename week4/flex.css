@@ -1,0 +1,30 @@
+#flex-layout > section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#flex-layout > section.no-flex {
+  display: block;
+}
+
+#flex-layout > .reverse {
+  flex-direction: row-reverse;
+}
+
+#flex-layout .section-title {
+  width: 350px;
+  vertical-align: top;
+}
+
+#flex-layout .section-content {
+  width: 500px
+}
+
+#flex-layout .vertical-center {
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #f2f2f2;
+  border-radius: 3px;
+}
