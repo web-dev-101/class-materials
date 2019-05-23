@@ -15,15 +15,15 @@ console.log('Modulo:   ', remainder);
 // String Concatenation
 var catName = 'Bandit' + 'Two';
 var dogName = 'Champion' + ' The ' + 'Dog';
-// console.log(catName);
-// console.log(dogName);
+console.log(catName);
+console.log(dogName);
 
 
 // String Interpolation
 var firstName = 'Liz';
 var lastName = 'Lemon';
 var fullName = `This is my name: ${firstName} ${lastName}`;
-// console.log(fullName);
+console.log(fullName);
 
 
 // Comparison Operators
@@ -32,7 +32,7 @@ var lessThanOrEqual = 2 <= 3;
 var greaterThan = 2 > 3;
 var greaterThanOrEqual = 2 >= 3;
 
-// console.log(lessThan);
-// console.log(lessThanOrEqual);
-// console.log(greaterThan);
-// console.log(greaterThanOrEqual);
+console.log(lessThan);
+console.log(lessThanOrEqual);
+console.log(greaterThan);
+console.log(greaterThanOrEqual);

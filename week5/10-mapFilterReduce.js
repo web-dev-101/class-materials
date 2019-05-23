@@ -8,18 +8,18 @@ otherShows.forEach(function(show, i) {
 });
 
 // Map, Filter, Reduce
-// console.log(otherShows);
+console.log(otherShows);
 var lowerCaseShows = otherShows.map((show) => { return show.toLowerCase() });
-// console.log(otherShows);
-// console.log(lowerCaseShows);
+console.log(otherShows);
+console.log(lowerCaseShows);
 
 var filteredShows = otherShows.filter((show) => { return !show.includes(' ') || show.length <= 5 });
-// console.log(filteredShows);
+console.log(filteredShows);
 
 var numbers = [4, 8, 15, 16, 23, 42];
 var sum = numbers.reduce((accumulator, value) => accumulator + value);
-// console.log(sum);
+console.log(sum);
 
 var total = numbers.map(x => x + 1).filter(x => x % 2 != 0).reduce((total, x) => total + x - 1);
-// console.log(total);
+console.log(total);
 

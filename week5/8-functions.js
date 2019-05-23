@@ -16,14 +16,14 @@ console.log(answer);
 var anon = function () {
   return 'Guy Fawkes';
 }
-// console.log(anon());
+console.log(anon());
 
 // Arrow Function
 // Definition: Compact functions, with some caveats (see classes/this)...
 var arrow = () => { 
   return 'Oliver Queen'; 
 };
-// console.log(arrow());
+console.log(arrow());
 
 var quickSum = (a, b) => a + b;
-// console.log(quickSum(0, 1));
+console.log(quickSum(0, 1));
