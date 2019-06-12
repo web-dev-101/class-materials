@@ -2,7 +2,7 @@ const items = [
     {
         id: 1,
         title: 'Do not buy Steam games on sale',
-        description: "Please don't do it. You know your wallet will thank you later. Or will it..."
+        description: "Please don't do it. You know your wallet will thank you later. Or will it... This will keep going until I really break it"
     },
     {
         id: 2,
