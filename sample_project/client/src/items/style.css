@@ -1,12 +1,12 @@
-.items {
-    display: flex;
-    flex-direction: column;
-}
-
 .form-area {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
 }
 
 textarea {

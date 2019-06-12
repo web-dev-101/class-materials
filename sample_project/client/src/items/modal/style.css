@@ -1,29 +1,29 @@
 .modal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) !important;
-    height: 100%;
-    width: 100%;
+    align-content: center;
     background-color: rgb(128, 128, 128, .75);
     display: flex;
-    align-content: center;
+    height: 100%;
     justify-content: center;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%) !important;
+    width: 100%;
 }
 
 .modal-box {
-    color: black;
-    height: 600px;
-    width: 600px;
-    border: 1px solid black;
     align-self: center;
     background-color: white;
+    border: 1px solid black;
+    color: black;
+    height: 600px;
     padding: 10px;
+    width: 600px;
 }
 
 .modal-exit {
-    padding: 10px;
     float: right;
+    padding: 10px;
 }
 
 .modal-exit:hover {
