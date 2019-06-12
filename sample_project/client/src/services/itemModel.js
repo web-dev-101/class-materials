@@ -1,4 +1,4 @@
-const items = [
+const itemModels = [
     {
         id: 1,
         title: 'Do not buy Steam games on sale',
@@ -17,11 +17,20 @@ const items = [
 ]
 
 function getItems() {
-    return items;
+    return itemModels;
 }
 
 function getItem(id) {
-    return items.filter(x => x === id);
+    return itemModels.filter(x => x === id);
 }
 
-export { getItems, getItem};
+function postItem(item) {
+    const itemId = Math.max.apply(Math, itemModels.map(x => x.id)) + 1;
+    item.id = itemId;
+    itemModels.push(item);
+    console.log('Items: ', itemModels);
+    console.log('Item Id : ', itemId);
+    return itemId;
+}
+
+export { postItem, getItems, getItem};

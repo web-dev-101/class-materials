@@ -1,0 +1,31 @@
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(128, 128, 128, .75);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.modal-box {
+    color: black;
+    height: 600px;
+    width: 600px;
+    border: 1px solid black;
+    align-self: center;
+    background-color: white;
+    padding: 10px;
+}
+
+.modal-exit {
+    padding: 10px;
+    float: right;
+}
+
+.modal-exit:hover {
+    cursor: pointer;
+}

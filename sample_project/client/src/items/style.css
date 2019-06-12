@@ -2,3 +2,13 @@
     display: flex;
     flex-direction: column;
 }
+
+.form-area {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+textarea {
+    resize: vertical
+}

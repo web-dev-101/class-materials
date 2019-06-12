@@ -3,9 +3,10 @@ import './style.css'
 
 function Item(props) {
     return (
-        <div key={ props.id } className="item">
+        <div className="item">
             <h2>{ props.title }</h2>
             <p>{ props.description }</p>
+            <button onClick={() => props.handleView(props.id)}>View</button>
         </div>
     )
 }
