@@ -1,0 +1,12 @@
+.main {
+    display: flex;
+    justify-content: center;    
+}
+
+.item-area {
+    border: 1px solid black;
+    box-shadow: 2px 0 #868686;
+    padding: 10px 20px;
+    width: 600px;
+    height: 100vh;
+}
